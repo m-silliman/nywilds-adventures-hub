@@ -8,7 +8,7 @@ const Adventures = () => {
     {
       id: 1,
       name: "Adirondack Park",
-      description: "Six million acres of protected wilderness with 46 high peaks and countless trails.",
+      description: "Six million acres of protected wilderness with 46 high peaks and countless trails and fun.",
       coordinates: { lat: 44.0749, lng: -74.0042 },
       topTrails: [
         {
