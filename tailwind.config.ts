@@ -61,7 +61,29 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				mountain: {
+					light: 'hsl(var(--mountain-light))',
+					mid: 'hsl(var(--mountain-mid))',
+					deep: 'hsl(var(--mountain-deep))',
+					dark: 'hsl(var(--mountain-dark))',
+					darkest: 'hsl(var(--mountain-darkest))'
 				}
+			},
+			backgroundImage: {
+				'mountain-gradient': 'var(--gradient-mountain)',
+				'hero-gradient': 'var(--gradient-hero)',
+				'adventure-gradient': 'var(--gradient-adventure)',
+				'overlay-gradient': 'var(--gradient-overlay)'
+			},
+			boxShadow: {
+				'mountain': 'var(--shadow-mountain)',
+				'card-soft': 'var(--shadow-card)',
+				'glow': 'var(--shadow-glow)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'quick': 'var(--transition-quick)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
